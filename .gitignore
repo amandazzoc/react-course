@@ -1,0 +1,23 @@
+# Dependências do Node.js
+node_modules/
+
+# Diretório de saída do build
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configurações de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs
+.vscode/
+
+# Cache do Vite
+node_modules/.vite/
+
+# Variáveis de ambiente (se houver)
+.env
