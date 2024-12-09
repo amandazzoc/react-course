@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.container {
+  background-color: aqua;
+  padding: 5%;
+}
+
+h1, p{
+  color: black;
+}
