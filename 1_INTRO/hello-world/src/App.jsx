@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import FirstComponent from './components/FirstComponent'
 import './App.css'
+import TemplateExpressions from './components/TemplateExpressions'
+import MyComponent from './components/MyComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,9 @@ function App() {
       <div className='container'>
         <h1>Hello World React</h1>
         <p>Primeira página em React!</p>
+        <FirstComponent/>
+        <TemplateExpressions/>
+        <MyComponent />
       </div>
     </>
   )
